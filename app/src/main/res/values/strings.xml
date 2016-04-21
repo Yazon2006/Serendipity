@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">SERENDIPITY</string>
+    <string name="app_title">SERENDIPITY</string>
+    <string name="facebook_app_id">936955133067339</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Registration</string>
+    <string name="forgetPass">Forgot Password?</string>
+    <string name="reset">Reset Password</string>
+    <string name="email">Email</string>
+    <string name="resetpasshint">Enter your Email to reset password</string>
+    <string name="passwordConfirm">Confirm Password</string>
+    <string name="signUp">Sign Up</string>
+    <string name="haveAccount">Already have an account? Sign In</string>
+    <string name="withoutLogin">{ Continue without Registration }</string>
+    <string name="rememberpass">Remember me</string>
+    <string-array name="itemTitles">
+        <item>Map</item>
+        <item>Record ambient sounds</item>
+        <item>Recording list</item>
+        <item>Show a random place</item>
+    </string-array>
+    <string-array name="itemDescriptions">
+        <item>Explore wonderful places</item>
+        <item>Remember surrounding sounds</item>
+        <item>Change your vision</item>
+        <item>Get new experience</item>
+    </string-array>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="separator">:</string>
+    <string name="timer_default">00</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="upload">Upload recording</string>
+    <string name="no_account">"Don't have an account?\nSign Up"</string>
+    <string name="changes_name_email">Change Username/Email</string>
+    <string name="about_changes">Enter new information. Push Change buttons, if you want to Save your data.</string>
+    <string name="new_password">New Password</string>
+    <string name="changes_password">Change Password</string>
+    <string name="logout">Log Out</string>
+    <string name="passwordNewConfirm">Confirm New Password</string>
+    <string name="cant_upload_it">File does not exist</string>
+    <string name="edit_record">Edit</string>
+    <string name="upload_record">Save</string>
+    <string name="delete_record">Delete</string>
+    <string name="is_delete_file">Are you sure you want to delete this record?</string>
+    <string name="is_edit_file">Enter new name of record</string>
+    <string name="cancel">Cancel</string>
+    <string name="application_title">SERENDIPITY</string>
+    <string name="start_as_visitor">START AS VISITOR</string>
+    <string name="or">OR</string>
+    <string name="Attention">Attention!</string>
+    <string name="downloading">Downloading... please wait</string>
+    <string name="play_item">play_item</string>
+    <string name="profile_photo">profilePhoto</string>
+    <string name="registering">Please wait, we registering you ;)</string>
+    <string name="logging_in">Please wait we logging you in ;)</string>
+    <string name="sending_email_with_your_password">Sending email with you password</string>
+    <string name="changing_user_info">"Changing user info... "</string>
+    <string name="all_rights_reserved">SamNapisal (c) Serendipity 2016</string>
+    <string name="something_wrong_cant_start">Something wrong with connection to the server! Try again later</string>
+    <string name="press_again_to_exit">Press again to exit</string>
+    <string name="error_log_in">Incorrect Email/Password Combination</string>
+    <string name="no_audio_here">There are no available audio records at this place</string>
+    <string name="you_should_login">To use this function you need to Login</string>
+    <string name="goto_login">Go to Login</string>
+    <string name="permission_not_granted">Permissions to get the location are not granted. Please setup the permissions.</string>
+    <string name="available_new_audio">There are new audio files available here! Check the list in left menu</string>
+    <string name="possibly_gps_not_enabled">Impossible to save file. Possibly GPS is not enabled.</string>
+    <string name="updating_audio_list">Updating audio list...</string>
+</resources>

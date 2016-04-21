@@ -1,0 +1,72 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bel.softwarefactory">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_circle"
+        android:label="@string/app_name"
+        android:name=".Application_"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ui.activities.SplashScreenActivity_"
+            android:label="Serendipity"
+            android:theme="@style/TranslucentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.activities.LoginActivity_"
+            android:label="Login"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity android:name=".ui.activities.FirstActivity_"
+            android:label="Login"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity android:name=".ui.activities.RegisterActivity_"
+            android:label="Registration"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity android:name=".ui.activities.MenuActivity_"
+            android:label="Map"
+            android:theme="@style/TranslucentActivity">
+
+        </activity>
+
+        <activity android:name=".ui.activities.ProfileActivity_"
+            android:label="Profile"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".ui.activities.MenuActivity_">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activities.MenuActivity_" />
+        </activity>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB96KuN9DxKveol3il-OedOtXT7ydHw9_A"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+    </application>
+
+</manifest>

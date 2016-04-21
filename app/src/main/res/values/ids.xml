@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="layoutProfileHeader" type="id"/>
+    <item type="id" name="RecordButton"/>
+    <item type="id" name="StopButton"/>
+</resources>

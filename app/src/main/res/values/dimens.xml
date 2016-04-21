@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="offset_small">10dp</dimen>
+    <dimen name="offset_normal">24dp</dimen>
+    <dimen name="offset_big">42dp</dimen>
+
+    <dimen name="title_margin">100dp</dimen>
+
+    <dimen name="left_drawer_header_height">180dp</dimen>
+
+    <!-- audio records list -->
+    <dimen name="media_item_height">72dp</dimen>
+    <dimen name="media_item_icon_margin_start">12dp</dimen>
+    <dimen name="media_item_text_margin_start">60dp</dimen>
+    <dimen name="profile_text_size">20sp</dimen>
+    <dimen name="profile_layout_height">150dp</dimen>
+    <dimen name="copyright_text">20sp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="title_textSize">20sp</dimen>
+
+</resources>

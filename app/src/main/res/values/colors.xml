@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Raw grey colors-->
+    <color name="gray_f0f0f1">#f0f0f1</color>
+    <color name="gray_f1f2f2">#f1f2f2</color>
+    <color name="gray_f8f8f8">#f8f8f8</color>
+    <color name="gray_F2F2F2">#F2F2F2</color>
+    <color name="gray_e6e7e8">#e6e7e8</color>
+    <color name="gray_c8c9d5">#c8c9d5</color>
+    <color name="gray_bbbcbc">#bbbcbc</color>
+    <color name="gray_babcbe">#babcbe</color>
+    <color name="gray_bcbec0">#bcbec0</color>
+    <color name="gray_bfbfbf">#bfbfbf</color>
+    <color name="gray_858689">#858689</color>
+    <color name="gray_86888b">#86888b</color>
+    <color name="gray_808184">#808184</color>
+    <color name="gray_808285">#808285</color>
+    <color name="gray_414042">#414042</color>
+    <color name="gray_404041">#404041</color>
+    <color name="gray_363637">#363637</color>
+    <color name="gray_272727">#272727</color>
+    <color name="gray_1a1a1a">#1a1a1a</color>
+    <!--End raw grey colors-->
+
+    <color name="colorPrimary">#292929</color>
+    <color name="colorPrimaryDark">#1a1a1a</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimaryText">@color/gray_414042</color>
+
+    <color name="whiteTransparent">#35ffffff</color>
+
+    <color name="media_item_icon_playing">#00B8D4</color>
+    <color name="media_item_icon_not_playing">#ccc</color>
+    <color name="left_menu_item_pressed">@color/gray_c8c9d5</color>
+    <color name="left_menu_item_selected">@color/gray_c8c9d5</color>
+</resources>

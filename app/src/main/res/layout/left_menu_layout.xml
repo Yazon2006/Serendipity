@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/left_drawer_header_height"
+        android:background="@drawable/header"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/offset_small">
+
+        <FrameLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/offset_normal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/userName_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/profile_text_size"
+                tools:text="User Profile" />
+
+            <ImageView
+                android:id="@+id/userPhoto_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|top"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/profile_photo"
+                android:src="@mipmap/ic_user" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/listViewMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:minWidth="240dp" />
+
+</LinearLayout>
